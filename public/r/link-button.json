@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "link-button",
+  "title": "Link Button",
+  "description": "A reusable Next.js Link component styled with shadcn Button variants.   ",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "src/registry/default/link-button/link-button.tsx",
+      "content": "import type { ComponentProps } from \"react\";\r\nimport type { VariantProps } from \"class-variance-authority\";\r\n\r\nimport Link from \"next/link\";\r\n\r\nimport { buttonVariants } from \"@/components/ui/button\";\r\nimport { cn } from \"@/lib/utils\";\r\n\r\nexport type LinkButtonProps = ComponentProps<typeof Link> &\r\n  VariantProps<typeof buttonVariants>;\r\n\r\nexport function LinkButton({\r\n  className,\r\n  variant,\r\n  size,\r\n  ...props\r\n}: LinkButtonProps) {\r\n  return (\r\n    <Link\r\n      {...props}\r\n      className={cn(\r\n        buttonVariants({\r\n          variant,\r\n          size,\r\n          className,\r\n        }),\r\n      )}\r\n    />\r\n  );\r\n}\r\n",
+      "type": "registry:ui",
+      "target": "components/nexora-ui/link-button.tsx"
+    }
+  ],
+  "type": "registry:ui"
+}
