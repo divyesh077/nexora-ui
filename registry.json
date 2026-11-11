@@ -19,6 +19,25 @@
           "target": "components/nexora-ui/nexora-button.tsx"
         }
       ]
-    }
+    },
+    {
+      "name": "link-button",
+      "type": "registry:ui",
+      "title": "Link Button",
+      "description": "A reusable Next.js Link component styled with shadcn Button variants.   ",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "src/registry/default/link-button/link-button.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/link-button.tsx"
+        }
+      ]
+    }     
   ]
 }
