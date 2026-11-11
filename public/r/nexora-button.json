@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "nexora-button",
+  "title": "Nexora Button",
+  "description": "A reusable button component built on top of shadcn/ui.",
+  "dependencies": [],
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "src/registry/default/nexora-button/nexora-button.tsx",
+      "content": "import * as React from \"react\";\r\n\r\nimport { Button } from \"@/components/ui/button\";\r\nimport { cn } from \"@/lib/utils\";\r\n\r\nexport type NexoraButtonProps = React.ComponentProps<typeof Button> & {\r\n  fullWidth?: boolean;\r\n};\r\n\r\nexport function NexoraButton({\r\n  fullWidth = false,\r\n  className,\r\n  ...props\r\n}: NexoraButtonProps) {\r\n  return <Button {...props} className={cn(fullWidth && \"w-full\", className)} />;\r\n}\r\n",
+      "type": "registry:ui",
+      "target": "components/nexora-ui/nexora-button.tsx"
+    }
+  ],
+  "type": "registry:ui"
+}

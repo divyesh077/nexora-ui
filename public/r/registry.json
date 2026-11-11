@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "nexora-ui",
+  "homepage": "https://your-domain.com",
+  "items": [
+    {
+      "name": "nexora-button",
+      "type": "registry:ui",
+      "title": "Nexora Button",
+      "description": "A reusable button component built on top of shadcn/ui.",
+      "dependencies": [],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "src/registry/default/nexora-button/nexora-button.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/nexora-button.tsx"
+        }
+      ]
+    }
+  ]
+}
