@@ -38,6 +38,127 @@
           "target": "components/nexora-ui/link-button.tsx"
         }
       ]
+    },
+    {
+      "name": "nexora-forms",
+      "type": "registry:ui",
+      "title": "Nexora Forms",
+      "description": "A reusable, type-safe form component library built with React Hook Form, Zod-compatible validation, and shadcn/ui Base UI primitives.",
+      "dependencies": [
+        "react-hook-form",
+        "date-fns",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "field",
+        "input",
+        "textarea",
+        "select",
+        "checkbox",
+        "radio-group",
+        "switch",
+        "calendar",
+        "popover",
+        "input-group"
+      ],
+      "files": [
+        {
+          "path": "src/registry/default/forms/core/form.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/core/form.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/core/form-field.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/core/form-field.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/core/form-field-set.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/core/form-field-set.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/core/form-types.ts",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/core/form-types.ts"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-input.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-input.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-number-input.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-number-input.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-textarea.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-textarea.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-select.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-select.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-checkbox.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-checkbox.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-checkbox-group.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-checkbox-group.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-radio-group.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-radio-group.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-switch.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-switch.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-date-picker.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-date-picker.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-input-group.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-input-group.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/fields/form-input-group-textarea.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/fields/form-input-group-textarea.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/actions/form-submit-button.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/actions/form-submit-button.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/actions/form-reset-button.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/actions/form-reset-button.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/actions/form-cancel-button.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/actions/form-cancel-button.tsx"
+        },
+        {
+          "path": "src/registry/default/forms/layout/form-actions.tsx",
+          "type": "registry:ui",
+          "target": "components/nexora-ui/forms/layout/form-actions.tsx"
+        }
+      ]
     }     
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "fieldClassName",
+    "inputClassName",
+    "inputGroupClassName",
+    "labelClassName",
+    "descriptionClassName",
+    "errorClassName",
+    "wrapperClassName",
+    "containerClassName",
+    "iconClassName",
+    "buttonClassName",
+    "prefixClassName",
+    "suffixClassName",
+    "helperTextClassName"
+  ]
+}
